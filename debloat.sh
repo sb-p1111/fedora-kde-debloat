@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+sudo dnf remove \
+  akregator \
+  dragon \
+  elisa-player \
+  mediawriter \
+  filelight \
+  kaddressbook \
+  kamoso \
+  kde-connect \
+  kde-partitionmanager \
+  kdebugsettings \
+  kfind \
+  kjournald \
+  kleopatra \
+  kmahjongg \
+  kmail \
+  kmines \
+  kmouth \
+  kolourpaint \
+  kontact \
+  korganizer \
+  kpat \
+  krdc \
+  krfb \
+  ktnef \
+  kwalletmanager5 \
+  neochat \
+  qrca \
+  skanpage \
+  "libreoffice*" \
+  "*akonadi*" \
+  kdepim-addons \
+  kdepim-runtime \
+  pim-data-exporter \
+  im-chooser \
+  kcharselect \
+  abrt-desktop \
+  setroubleshoot \
+  -y
