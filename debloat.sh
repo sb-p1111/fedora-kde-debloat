@@ -38,4 +38,3 @@ sudo dnf remove \
   kcharselect \
   abrt-desktop \
   setroubleshoot \
-  -y
