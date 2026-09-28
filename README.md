@@ -6,6 +6,6 @@ A personal package-removal recommendation for Fedora KDE Plasma installations.
 
 Review the package list before running it:
 
-```bash
-chmod +x debloat.sh
-./debloat.sh
+```sh
+curl -fsSL https://raw.githubusercontent.com/sb-p1111/fedora-kde-debloat/main/debloat.sh | bash
+```
