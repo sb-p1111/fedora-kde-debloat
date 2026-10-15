@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo dnf remove -y \
+sudo dnf remove \
     akregator \
     dragon \
     elisa-player \
@@ -34,7 +34,4 @@ sudo dnf remove -y \
     kdepim-addons \
     kdepim-runtime \
     pim-data-exporter \
-    im-chooser \
-    kcharselect \
-    abrt-desktop \
-    setroubleshoot
+    kcharselect
